@@ -17,7 +17,7 @@ import com.foursquare.fongo.Fongo;
  * fongo override of com.mongodb.DB
  * you shouldn't need to use this class directly
  * 
- * @author jon
+ * @package mongodb
  */
 public class FongoDB extends DB {
   final static Logger LOG = LoggerFactory.getLogger(FongoDB.class);
